@@ -11,7 +11,7 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
         findViewById<Button>(R.id.SearchFilm).setOnClickListener {
-            startActivity(Intent(this, SearchFilmActivity::class.java))
+            startActivity(Intent(this, activity_search::class.java))
         }
 
         findViewById<Button>(R.id.RentFilm).setOnClickListener {
