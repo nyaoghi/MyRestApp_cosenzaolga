@@ -8,10 +8,10 @@
     tools:context=".MenuActivity">
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/SearchFilm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton8"
+        app:layout_constraintBottom_toTopOf="@+id/RentFilm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/btnsearch" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/RentFilm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,12 +30,12 @@
         tools:layout_editor_absoluteY="299dp" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/BookCinema"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/RentFilm"
         app:srcCompat="@drawable/btnbook" />
 </androidx.constraintlayout.widget.ConstraintLayout>
